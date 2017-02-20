@@ -3,6 +3,21 @@ An object-oriented top-down parser in Java that translates every TinyPL program 
 
 For each test case, we show the byte code generated, as well as the object diagram produced by JIVE at the end of execution.
 
+#Sample Input
+
+0: iload_1
+1: iload_2
+2: if_icmple 9
+5: iload_1
+6: iload_2
+7: isub
+8: istore_1
+9: return
+
+
+#Output Object Diagram
+![test4](https://cloud.githubusercontent.com/assets/25837151/23141781/77ab5f96-f7de-11e6-9ad5-1ea89d4ae3ba.png)
+
 
 Developed By
 ------------
