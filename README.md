@@ -5,14 +5,14 @@ For each test case, we show the byte code generated, as well as the object diagr
 
 #Sample Input
 
-0: iload_1
-1: iload_2
-2: if_icmple 9
-5: iload_1
-6: iload_2
-7: isub
-8: istore_1
-9: return
+0: iload_1 <br />
+1: iload_2 <br />
+2: if_icmple 9 <br />
+5: iload_1 <br />
+6: iload_2 <br />
+7: isub <br />
+8: istore_1 <br />
+9: return <br />
 
 
 #Output Object Diagram
