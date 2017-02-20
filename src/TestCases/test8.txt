@@ -1,0 +1,29 @@
+0: iconst_0
+1: istore_3
+2: bipush 32
+4: istore_1
+5: iload_1
+6: iconst_1
+7: if_icmpeq  28
+10: iload_1
+11: istore_2
+12: iload_2
+13: bipush 33
+14: if_icmpge 28
+15: iload_3
+16: iload_1
+17: iload_2
+19: imul
+22: iadd
+23: istore_3
+24: iload_2
+25: iconst_2
+26: imul
+27: istore_2
+28: goto 38
+29: iload_1
+30: iconst_1
+31: isub
+32: istore_1
+35: goto 38
+38: return
